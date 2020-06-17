@@ -1,6 +1,8 @@
-# practice
+# program codechef test 2
 
-print('My name is')
+testCases = int(input())
 
-for i in range(5):
-    print('Jimmy Five Times (' + str(i) + ')')
+for t in range(testCases):
+    (a, b) = map(int, input().split('+'))
+    sum = a + b
+    print(sum)
